@@ -1,0 +1,128 @@
+object frmRequest: TfrmRequest
+  Left = 348
+  Height = 610
+  Top = 118
+  Width = 945
+  Caption = 'Teste Request'
+  ClientHeight = 610
+  ClientWidth = 945
+  LCLVersion = '1.4.4.0'
+  object btSend: TButton
+    Left = 832
+    Height = 44
+    Top = 80
+    Width = 104
+    Caption = 'Send'
+    Default = True
+    OnClick = btSendClick
+    TabOrder = 5
+  end
+  object edURL: TEdit
+    Left = 48
+    Height = 27
+    Top = 90
+    Width = 632
+    TabOrder = 4
+  end
+  object lblURL: TLabel
+    Left = 8
+    Height = 17
+    Top = 99
+    Width = 31
+    Caption = 'URL:'
+    ParentColor = False
+  end
+  object lblProxy: TLabel
+    Left = 8
+    Height = 17
+    Top = 16
+    Width = 43
+    Caption = 'Proxy:'
+    ParentColor = False
+  end
+  object edProxy: TEdit
+    Left = 95
+    Height = 27
+    Top = 12
+    Width = 265
+    TabStop = False
+    TabOrder = 0
+  end
+  object lblPorta: TLabel
+    Left = 408
+    Height = 17
+    Top = 16
+    Width = 42
+    Caption = 'Porta:'
+    ParentColor = False
+  end
+  object edPorta: TEdit
+    Left = 495
+    Height = 27
+    Top = 12
+    Width = 265
+    TabStop = False
+    TabOrder = 1
+  end
+  object lblUser: TLabel
+    Left = 8
+    Height = 17
+    Top = 52
+    Width = 35
+    Caption = 'User:'
+    ParentColor = False
+  end
+  object edUser: TEdit
+    Left = 95
+    Height = 27
+    Top = 48
+    Width = 265
+    TabOrder = 2
+  end
+  object lblPassword: TLabel
+    Left = 408
+    Height = 17
+    Top = 52
+    Width = 70
+    Caption = 'Password:'
+    ParentColor = False
+  end
+  object edPassword: TEdit
+    Left = 495
+    Height = 27
+    Top = 48
+    Width = 265
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 3
+  end
+  object cbTypeSend: TComboBox
+    Left = 694
+    Height = 29
+    Top = 90
+    Width = 127
+    ItemHeight = 0
+    Items.Strings = (
+      'GET'
+      'POST'
+    )
+    TabOrder = 6
+  end
+  object mReturn: TMemo
+    Left = 8
+    Height = 272
+    Top = 328
+    Width = 928
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 7
+  end
+  object mBody: TMemo
+    Left = 8
+    Height = 192
+    Top = 128
+    Width = 928
+    ScrollBars = ssAutoVertical
+    TabOrder = 8
+  end
+end
