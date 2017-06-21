@@ -2,6 +2,7 @@
 
 
 # Setup
- - Download da LIB e intalar a mesma no Lazarus.
+ - Download the Ararat Synapse project and install it on Lazarus.
+ 
  Link: http://www.ararat.cz/synapse/doku.php/download
  
